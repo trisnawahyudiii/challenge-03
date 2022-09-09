@@ -12,6 +12,8 @@ function filterCarByAvailability(cars) {
     }
   }
 
+  console.table(result)
+
   // Rubah code ini dengan array hasil filter berdasarkan availablity
   return result;
 }
